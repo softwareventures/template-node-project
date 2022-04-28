@@ -29,7 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
-    "@commitlint/cz-commitlint": "16.2.3",
+    "@commitlint/cz-commitlint": "16.2.4",
     "@softwareventures/eslint-config": "5.1.5",
     "@softwareventures/precise-commits": "2.0.20",
     "@softwareventures/prettier-config": "3.0.0",
