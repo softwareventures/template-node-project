@@ -6,6 +6,12 @@
 /.prettierignore
 /renovate.json
 /.snyk
+/*.config.js
+/*.config.cjs
+/*.config.mjs
+/*.config.ts
+/*.config.cts
+/*.config.mts
 *.ts
 !*.d.ts
 
