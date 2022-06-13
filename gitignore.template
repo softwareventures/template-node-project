@@ -8,6 +8,21 @@ npm-debug.log*
 *.js.map
 !/types/*.d.ts
 
+# Yarn 2
+/node_modules
+/.pnp.*
+/.yarn/*
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/versions
+yarn-error.log
+
+# In case someone runs npm by accident
+package-lock.json
+npm-debug.log*
+
 # Personal WebStorm IDE files
 /.idea/workspace.xml
 /.idea/tasks.xml
