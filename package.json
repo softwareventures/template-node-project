@@ -36,7 +36,7 @@
     "@softwareventures/prettier-config": "3.0.0",
     "@softwareventures/semantic-release-config": "2.0.2",
     "@softwareventures/tsconfig": "6.0.0",
-    "@types/node": "17.0.42",
+    "@types/node": "17.0.43",
     "ava": "4.3.0",
     "commitizen": "4.2.4",
     "eslint": "8.17.0",
