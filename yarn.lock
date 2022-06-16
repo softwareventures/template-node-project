@@ -961,7 +961,7 @@ __metadata:
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 2.0.2
     "@softwareventures/tsconfig": 6.0.0
-    "@types/node": 17.0.44
+    "@types/node": 17.0.45
     ava: 4.3.0
     commitizen: 4.2.4
     eslint: 8.17.0
@@ -1048,10 +1048,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:17.0.44, @types/node@npm:>=12":
-  version: 17.0.44
-  resolution: "@types/node@npm:17.0.44"
-  checksum: 8e2786472507575a9c49ec6c4b056cbe1f4fd6766fd03299f8510bbdce558d8522691b2cc24329396742002c2a8c3708cb453053ecbe0ce09c10b9d48887c9d8
+"@types/node@npm:17.0.45, @types/node@npm:>=12":
+  version: 17.0.45
+  resolution: "@types/node@npm:17.0.45"
+  checksum: aa04366b9103b7d6cfd6b2ef64182e0eaa7d4462c3f817618486ea0422984c51fc69fd0d436eae6c9e696ddfdbec9ccaa27a917f7c2e8c75c5d57827fe3d95e8
   languageName: node
   linkType: hard
 
