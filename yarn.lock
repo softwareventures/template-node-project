@@ -872,14 +872,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/array@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@softwareventures/array@npm:5.1.0"
+"@softwareventures/array@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@softwareventures/array@npm:5.2.0"
   dependencies:
     "@softwareventures/nullable": ^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0
     "@softwareventures/ordered": ^0.2.0 || ^1.0.0
     tslib: ^2.0.0
-  checksum: 3645fcb45f71a7f51bea77e1bc1ba91c0ea5f0916051bbdc6f4376cd2c32a6a40398a6d17a11f68b3bce2244632e61d89464995ab58737eb21abc38ca4286f30
+  checksum: 25463261339efc0fcd19710dc9e34fd1fdb17ef8777a380e4f91de9943359132e52aacb7ddee9364501f46332e0819a392ad2ee1f3b2f9fc14134c7fd4187e31
   languageName: node
   linkType: hard
 
@@ -920,11 +920,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:2.0.21":
-  version: 2.0.21
-  resolution: "@softwareventures/precise-commits@npm:2.0.21"
+"@softwareventures/precise-commits@npm:2.0.22":
+  version: 2.0.22
+  resolution: "@softwareventures/precise-commits@npm:2.0.22"
   dependencies:
-    "@softwareventures/array": 5.1.0
+    "@softwareventures/array": 5.2.0
     "@softwareventures/nullable": 2.0.0
     execa: 5.1.1
     find-up: 5.0.0
@@ -938,7 +938,7 @@ __metadata:
     prettier: ">=1.8.0"
   bin:
     precise-commits: lib/cli.js
-  checksum: 7ea561efa4157833b59a8cbd504a2dc51f53cdde634f05adcdc1b956e1d2745a950f51bf6db801e2b917a6180a3cde1f404f73c2b1839e3dbe39134895379f40
+  checksum: 3b1442615e674ae0258ff18e87e51e27cb104040df7237d011f1ea242e761c9ec89c4760751eb05bebd7b3e12db91932945b2519e779a67f69edd3fa3d53fd3b
   languageName: node
   linkType: hard
 
@@ -969,7 +969,7 @@ __metadata:
     "@commitlint/config-conventional": 16.2.4
     "@commitlint/cz-commitlint": 16.3.0
     "@softwareventures/eslint-config": 5.1.5
-    "@softwareventures/precise-commits": 2.0.21
+    "@softwareventures/precise-commits": 2.0.22
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 2.0.2
     "@softwareventures/tsconfig": 6.0.0
