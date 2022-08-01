@@ -41,7 +41,7 @@
     "commitizen": "4.2.5",
     "eslint": "8.20.0",
     "husky": "7.0.4",
-    "inquirer": "8.2.4",
+    "inquirer": "9.0.2",
     "pinst": "3.0.0",
     "prettier": "2.7.1",
     "semantic-release": "17.4.7",
