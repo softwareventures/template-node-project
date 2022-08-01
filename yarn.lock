@@ -87,20 +87,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cz-commitlint@npm:16.3.0":
-  version: 16.3.0
-  resolution: "@commitlint/cz-commitlint@npm:16.3.0"
+"@commitlint/cz-commitlint@npm:17.0.3":
+  version: 17.0.3
+  resolution: "@commitlint/cz-commitlint@npm:17.0.3"
   dependencies:
-    "@commitlint/ensure": ^16.2.1
-    "@commitlint/load": ^16.3.0
-    "@commitlint/types": ^16.2.1
+    "@commitlint/ensure": ^17.0.0
+    "@commitlint/load": ^17.0.3
+    "@commitlint/types": ^17.0.0
     chalk: ^4.1.0
     lodash: ^4.17.21
     word-wrap: ^1.2.3
   peerDependencies:
     commitizen: ^4.0.3
     inquirer: ^8.0.0
-  checksum: 25c52a58505510d955f2a6c837ce59a693fd31a94e22734c1462d62e4cb7455702fc1150881467416957638e3c608a8af5ee8321c0724af4dba856cf2000cccb
+  checksum: 504eb1f4b8098ff71ce47919252fd1b1a91752dfb3112458e65c90618b9eee22b374ece93747e8a4b0093831105e6f53b9009f991b2538055068eccf5cdc11ed
   languageName: node
   linkType: hard
 
@@ -111,6 +111,16 @@ __metadata:
     "@commitlint/types": ^16.2.1
     lodash: ^4.17.19
   checksum: 388a124e515c02f14d026973821a6ce1d586ac966da8a51e69fabb925ee858e864696cd2b398bb5bec8d7ceee97f9f04c77630061b7784a10b06e0a436447d44
+  languageName: node
+  linkType: hard
+
+"@commitlint/ensure@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/ensure@npm:17.0.0"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    lodash: ^4.17.19
+  checksum: 5ce3c624417dc64ed0d406954b7684ed287142535b0f55df6984093d0f82eadf0da5ab3e472e3020139304cd007c682a4bdfb95cf53fb99e7c7ae6d4711ada6b
   languageName: node
   linkType: hard
 
@@ -160,7 +170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1":
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^17.0.3":
   version: 17.0.3
   resolution: "@commitlint/load@npm:17.0.3"
   dependencies:
@@ -936,7 +946,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 16.3.0
     "@commitlint/config-conventional": 16.2.4
-    "@commitlint/cz-commitlint": 16.3.0
+    "@commitlint/cz-commitlint": 17.0.3
     "@softwareventures/eslint-config": 5.1.5
     "@softwareventures/precise-commits": 2.0.22
     "@softwareventures/prettier-config": 3.0.0
