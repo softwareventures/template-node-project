@@ -15,10 +15,10 @@
   "scripts": {
     "commit": "cz",
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
+    "postinstall": "husky install",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
     "prepack": "tsc && pinst --disable",
     "postpack": "pinst --enable",
-    "postinstall": "husky install",
     "test": "ava"
   },
   "engines": {
@@ -76,8 +76,8 @@
   "release": {
     "extends": "@softwareventures/semantic-release-config"
   },
+  "packageManager": "yarn@3.2.3",
   "publishConfig": {
     "access": "public"
-  },
-  "packageManager": "yarn@3.2.3"
+  }
 }
