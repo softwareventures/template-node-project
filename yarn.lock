@@ -805,14 +805,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/array@npm:5.2.0":
-  version: 5.2.0
-  resolution: "@softwareventures/array@npm:5.2.0"
+"@softwareventures/array@npm:5.2.1":
+  version: 5.2.1
+  resolution: "@softwareventures/array@npm:5.2.1"
   dependencies:
-    "@softwareventures/nullable": ^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0
-    "@softwareventures/ordered": ^0.2.0 || ^1.0.0
+    "@softwareventures/nullable": ^1.0.0 || ^2.0.0
+    "@softwareventures/ordered": ^1.1.0
     tslib: ^2.0.0
-  checksum: 25463261339efc0fcd19710dc9e34fd1fdb17ef8777a380e4f91de9943359132e52aacb7ddee9364501f46332e0819a392ad2ee1f3b2f9fc14134c7fd4187e31
+  checksum: 3408e71f44c7a8ba5ae81ee2317b5f2ceebe218f7ba037ecacd326405a077a42703a8ddffccf99c6b21e7c62a4ac31ff7e7917101af1801538a4b09e499bb2d7
   languageName: node
   linkType: hard
 
@@ -835,7 +835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/nullable@npm:2.0.0, @softwareventures/nullable@npm:^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
+"@softwareventures/nullable@npm:2.0.0, @softwareventures/nullable@npm:^1.0.0 || ^2.0.0":
   version: 2.0.0
   resolution: "@softwareventures/nullable@npm:2.0.0"
   dependencies:
@@ -844,20 +844,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/ordered@npm:^0.2.0 || ^1.0.0":
-  version: 1.0.0
-  resolution: "@softwareventures/ordered@npm:1.0.0"
+"@softwareventures/ordered@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@softwareventures/ordered@npm:1.1.0"
   dependencies:
     tslib: ^1.9.3 || ^2.0.0 || ^2.1.0
-  checksum: 8a742f83330057b6e6950c49270c560500da930cecc58ff4438c94d0f02ed35a9640ae3a2c5a1c198e93e9f79269c0b11e1d0b20b2bd4fc4ef16e8e727c777c7
+  checksum: a68d969b9992125f338153f0070beeb60d25e3e91735f8229da900f9a5f20fc07ef7387476b87acb95f955172826006f1154d39fa5c9974089a6edba7b6e29bd
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:2.0.22":
-  version: 2.0.22
-  resolution: "@softwareventures/precise-commits@npm:2.0.22"
+"@softwareventures/precise-commits@npm:2.0.23":
+  version: 2.0.23
+  resolution: "@softwareventures/precise-commits@npm:2.0.23"
   dependencies:
-    "@softwareventures/array": 5.2.0
+    "@softwareventures/array": 5.2.1
     "@softwareventures/nullable": 2.0.0
     execa: 5.1.1
     find-up: 5.0.0
@@ -871,7 +871,7 @@ __metadata:
     prettier: ">=1.8.0"
   bin:
     precise-commits: lib/cli.js
-  checksum: 3b1442615e674ae0258ff18e87e51e27cb104040df7237d011f1ea242e761c9ec89c4760751eb05bebd7b3e12db91932945b2519e779a67f69edd3fa3d53fd3b
+  checksum: 81fd7c5a44acc294974b96996595fb496a7399dab745975f650b3cf359fd2ddcd10d324850db5bcb04b517734d7bfa988628a058c01bff24e71299e05589b750
   languageName: node
   linkType: hard
 
@@ -902,7 +902,7 @@ __metadata:
     "@commitlint/config-conventional": 17.1.0
     "@commitlint/cz-commitlint": 17.1.2
     "@softwareventures/eslint-config": 7.0.1
-    "@softwareventures/precise-commits": 2.0.22
+    "@softwareventures/precise-commits": 2.0.23
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 2.0.3
     "@softwareventures/tsconfig": 6.0.0
