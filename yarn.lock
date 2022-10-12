@@ -853,15 +853,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:2.0.24":
-  version: 2.0.24
-  resolution: "@softwareventures/precise-commits@npm:2.0.24"
+"@softwareventures/precise-commits@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@softwareventures/precise-commits@npm:3.0.1"
   dependencies:
     "@softwareventures/array": 5.3.0
     "@softwareventures/nullable": 2.0.0
     execa: 5.1.1
     find-up: 5.0.0
-    glob: 7.2.0
+    glob: 8.0.3
     ignore: 5.2.0
     mri: 1.2.0
     ora: 5.4.1
@@ -871,7 +871,7 @@ __metadata:
     prettier: ">=1.8.0"
   bin:
     precise-commits: lib/cli.js
-  checksum: 100230a048d46fbb48aa039420236d5e0441a08f46c7d87022fa5f5e9ab0cec04d8dfb13ae763ff2ce01349a2bd21599fbf4346822a3ef9f2920669f2bff92d1
+  checksum: 7ef16039289565dd832250fa5b0fab20cb784127e750dddcfb5b326ba14aa65147fab301d9d460cfb297fdd86278f90bec0a04db250c0ce51197170f3d391f14
   languageName: node
   linkType: hard
 
@@ -902,7 +902,7 @@ __metadata:
     "@commitlint/config-conventional": 17.1.0
     "@commitlint/cz-commitlint": 17.1.2
     "@softwareventures/eslint-config": 7.0.1
-    "@softwareventures/precise-commits": 2.0.24
+    "@softwareventures/precise-commits": 3.0.1
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 2.0.3
     "@softwareventures/tsconfig": 6.0.0
@@ -3327,7 +3327,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:*, glob@npm:^8.0.1":
+"glob@npm:*, glob@npm:8.0.3, glob@npm:^8.0.1":
   version: 8.0.3
   resolution: "glob@npm:8.0.3"
   dependencies:
@@ -3337,20 +3337,6 @@ __metadata:
     minimatch: ^5.0.1
     once: ^1.3.0
   checksum: 50bcdea19d8e79d8de5f460b1939ffc2b3299eac28deb502093fdca22a78efebc03e66bf54f0abc3d3d07d8134d19a32850288b7440d77e072aa55f9d33b18c5
-  languageName: node
-  linkType: hard
-
-"glob@npm:7.2.0":
-  version: 7.2.0
-  resolution: "glob@npm:7.2.0"
-  dependencies:
-    fs.realpath: ^1.0.0
-    inflight: ^1.0.4
-    inherits: 2
-    minimatch: ^3.0.4
-    once: ^1.3.0
-    path-is-absolute: ^1.0.0
-  checksum: 78a8ea942331f08ed2e055cb5b9e40fe6f46f579d7fd3d694f3412fe5db23223d29b7fee1575440202e9a7ff9a72ab106a39fee39934c7bedafe5e5f8ae20134
   languageName: node
   linkType: hard
 
