@@ -862,9 +862,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@softwareventures/precise-commits@npm:3.0.3"
+"@softwareventures/precise-commits@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@softwareventures/precise-commits@npm:3.0.4"
   dependencies:
     "@softwareventures/array": 5.3.0
     "@softwareventures/nullable": 3.0.0
@@ -880,7 +880,7 @@ __metadata:
     prettier: ">=1.8.0"
   bin:
     precise-commits: lib/cli.js
-  checksum: 07d70d5e3aad50b88a7a45c7e6a654183fc233d3b287f04339c2c02646fa4e2ed420a9fb3d3a3d44d912bf16a4b67f388c4c8312ad914f091723b2b064abba68
+  checksum: c79cc6f3e70d59036ec835da22e10afcf86c854cc2ec0c681e2c47a0a9f425cd9a23f93f2e1da69929e80a164d47bd118a9d269ed267170e84cd7c9db06894be
   languageName: node
   linkType: hard
 
@@ -911,7 +911,7 @@ __metadata:
     "@commitlint/config-conventional": 17.2.0
     "@commitlint/cz-commitlint": 17.2.0
     "@softwareventures/eslint-config": 7.0.1
-    "@softwareventures/precise-commits": 3.0.3
+    "@softwareventures/precise-commits": 3.0.4
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 3.0.0
     "@softwareventures/tsconfig": 7.0.0
