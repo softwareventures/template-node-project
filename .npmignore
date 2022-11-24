@@ -1,4 +1,5 @@
 # Build output
+/.yarn
 package-lock.json
 yarn.lock
 yarn-error.log
