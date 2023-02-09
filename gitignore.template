@@ -1,8 +1,4 @@
 # Build output
-/node_modules
-package-lock.json
-yarn-error.log
-npm-debug.log*
 *.js
 *.d.ts
 *.js.map
