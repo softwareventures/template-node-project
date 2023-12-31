@@ -973,14 +973,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/array@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@softwareventures/array@npm:6.0.3"
+"@softwareventures/array@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@softwareventures/array@npm:6.1.0"
   dependencies:
     "@softwareventures/nullable": ^1.0.0 || ^2.0.0 || ^3.0.0
     "@softwareventures/ordered": ^1.1.0 || ^2.0.0
     tslib: ^2.0.0
-  checksum: 2b5154c84dd1fbd30fafbd6237e39408fd2b6586b84fa99949774661275582973cb8ec0b8f04d3f5cf9ed460edd965d05eb63d002f5ec76ca5fc2d1a40426a69
+  checksum: 4ab7c610af9e9e6fc8eb6a1d66f6b131c1e2e9584ac04cf670be23c1ddabfced20406026e77f5c907a49b82aeeed243175771f8c5ba8a6ebaec7b381a11ca1e3
   languageName: node
   linkType: hard
 
@@ -1021,11 +1021,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:3.0.26":
-  version: 3.0.26
-  resolution: "@softwareventures/precise-commits@npm:3.0.26"
+"@softwareventures/precise-commits@npm:3.0.32":
+  version: 3.0.32
+  resolution: "@softwareventures/precise-commits@npm:3.0.32"
   dependencies:
-    "@softwareventures/array": 6.0.3
+    "@softwareventures/array": 6.1.0
     "@softwareventures/nullable": 3.1.0
     execa: 5.1.1
     find-up: 5.0.0
@@ -1033,13 +1033,14 @@ __metadata:
     ignore: 5.3.0
     mri: 1.2.0
     ora: 5.4.1
+    rxjs: 7.8.1
     tslib: 2.6.2
     unknown: 0.2.5
   peerDependencies:
     prettier: ^1.8.0 || ^2.0.0
   bin:
     precise-commits: lib/cli.js
-  checksum: 5a7ee12b1e0ba11454fc8414f25bdf1762db8ff8fbd92796eff913d4855481208fc2b4416361483f7d74686e60a308b019ea1826e1bbe62e6f95972b23649d94
+  checksum: 6589725910c12bd4ae2c287e7bd5728fb8424ed9afdc667f3781c856da190bd2ab00303e8f2c14dbddea03e1371f291c0a0826c432343f6e00f7ce8ca28d5c15
   languageName: node
   linkType: hard
 
@@ -1070,7 +1071,7 @@ __metadata:
     "@commitlint/config-conventional": 17.8.1
     "@commitlint/cz-commitlint": 17.8.1
     "@softwareventures/eslint-config": 7.1.4
-    "@softwareventures/precise-commits": 3.0.26
+    "@softwareventures/precise-commits": 3.0.32
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 3.1.0
     "@softwareventures/tsconfig": 7.0.0
@@ -6954,7 +6955,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.5.5":
+"rxjs@npm:7.8.1, rxjs@npm:^7.5.5":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
