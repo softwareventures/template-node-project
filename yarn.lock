@@ -1022,13 +1022,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/semantic-release-config@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@softwareventures/semantic-release-config@npm:3.1.0"
+"@softwareventures/semantic-release-config@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@softwareventures/semantic-release-config@npm:4.1.0"
   dependencies:
-    conventional-changelog-conventionalcommits: "npm:^4.6.3 || ^5.0.0"
-    tslib: "npm:2.4.1"
-  checksum: 10c0/5a14647ca5b9d47cf0858452a420b126e3b65bc4a40eafe82df871b199253fcc042dd6fe9974825102311758b6da7278e4ee255af7cb71b785272ffe00703989
+    tslib: "npm:2.6.2"
+  peerDependencies:
+    conventional-changelog-conventionalcommits: ^4.6.3 || ^5.0.0 || ^6.0.0 || ^7.0.0
+    semantic-release: ^17.0.7 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0 || ^22.0.0 || ^23.0.0
+  checksum: 10c0/efd21e6598d1f7f4f336463f8ce1702ba529d1f186585d2ac9944c1c461d13b173d406464b12656e2e74b8054850d960f7f84c3a3e86b2aa44242e9bb3eb1fae
   languageName: node
   linkType: hard
 
@@ -1042,13 +1044,14 @@ __metadata:
     "@softwareventures/eslint-config": "npm:7.4.0"
     "@softwareventures/precise-commits": "npm:4.0.3"
     "@softwareventures/prettier-config": "npm:4.0.0"
-    "@softwareventures/semantic-release-config": "npm:3.1.0"
+    "@softwareventures/semantic-release-config": "npm:4.1.0"
     "@softwareventures/tsconfig": "npm:7.1.0"
     "@types/node": "npm:17.0.45"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     ava: "npm:5.3.1"
     commitizen: "npm:4.3.0"
+    conventional-changelog-conventionalcommits: "npm:7.0.2"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
@@ -2307,18 +2310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.6.3 || ^5.0.0":
-  version: 5.0.0
-  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
-  dependencies:
-    compare-func: "npm:^2.0.0"
-    lodash: "npm:^4.17.15"
-    q: "npm:^1.5.1"
-  checksum: 10c0/02cc9313b44953332e9d45833615675cbc4d0f4129b27ea7218f8f4fc2f35124748725969c0cb3dc645713d19684540b87c5af25bd17ce3dccd7ef4e05e42442
-  languageName: node
-  linkType: hard
-
-"conventional-changelog-conventionalcommits@npm:^7.0.2":
+"conventional-changelog-conventionalcommits@npm:7.0.2, conventional-changelog-conventionalcommits@npm:^7.0.2":
   version: 7.0.2
   resolution: "conventional-changelog-conventionalcommits@npm:7.0.2"
   dependencies:
@@ -6325,13 +6317,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"q@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "q@npm:1.5.1"
-  checksum: 10c0/7855fbdba126cb7e92ef3a16b47ba998c0786ec7fface236e3eb0135b65df36429d91a86b1fff3ab0927b4ac4ee88a2c44527c7c3b8e2a37efbec9fe34803df4
-  languageName: node
-  linkType: hard
-
 "qrcode-terminal@npm:^0.12.0":
   version: 0.12.0
   resolution: "qrcode-terminal@npm:0.12.0"
@@ -7391,13 +7376,6 @@ __metadata:
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 10c0/eb19bda3ae545b03caea6a244b34593468e23d53b26bf8649fbc20fce43e9b21a71127fd6d2b9662c0fe48ee6ff668ead48fd00d3b88b2b716b1c12edae25b5d
-  languageName: node
-  linkType: hard
-
-"tslib@npm:2.4.1":
-  version: 2.4.1
-  resolution: "tslib@npm:2.4.1"
-  checksum: 10c0/9ac0e4fd1033861f0b4f0d848dc3009ebcc3aa4757a06e8602a2d8a7aed252810e3540e54e70709f06c0f95311faa8584f769bcbede48aff785eb7e4d399b9ec
   languageName: node
   linkType: hard
 
