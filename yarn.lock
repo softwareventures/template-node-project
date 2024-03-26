@@ -921,22 +921,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.1.5":
-  version: 7.1.5
-  resolution: "@softwareventures/eslint-config@npm:7.1.5"
+"@softwareventures/eslint-config@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@softwareventures/eslint-config@npm:7.4.0"
   dependencies:
     tslib: "npm:^2.3.1"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0
-    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0
+    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0 || ^7.0.0
+    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0 || ^7.0.0
     eslint: ^7.0.0 || ^8.0.0
     eslint-config-prettier: ^8.3.0 || ^9.0.0
     eslint-plugin-import: ^2.25.2
     eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0 || ^47.0.0 || ^48.0.0
     eslint-plugin-prefer-arrow: ^1.2.3
-    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0
+    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0
     typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
-  checksum: 10c0/37989d8feb1851a24f318912121b9ba0300ecda2b6fc1d13414d14f355edab8250ab18bb78e2c039fb4cabdfe783c76c361e270a552af23a363c6d409c109eb3
+  checksum: 10c0/221716a0a4daa2fcaca9359dd71a4aafc1ba04a5cae6bfeff940a46a2d6a58b9b45f140854c9563e02c0ed64ac42c4955b83f9b6e232ae952ea63ac2f397b548
   languageName: node
   linkType: hard
 
@@ -1007,7 +1007,7 @@ __metadata:
     "@commitlint/cli": "npm:18.6.1"
     "@commitlint/config-conventional": "npm:18.6.2"
     "@commitlint/cz-commitlint": "npm:18.6.1"
-    "@softwareventures/eslint-config": "npm:7.1.5"
+    "@softwareventures/eslint-config": "npm:7.4.0"
     "@softwareventures/precise-commits": "npm:3.0.33"
     "@softwareventures/prettier-config": "npm:4.0.0"
     "@softwareventures/semantic-release-config": "npm:3.1.0"
