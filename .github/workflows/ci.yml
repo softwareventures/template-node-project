@@ -28,9 +28,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{matrix.node-version}}
-      - run: yarn
-      - run: yarn test
-      - run: yarn lint
+      - run: corepack yarn
+      - run: corepack yarn test
+      - run: corepack yarn lint
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
@@ -51,5 +51,5 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{env.DEPLOY_NODE_VERSION}}
-      - run: yarn
-      - run: yarn semantic-release
+      - run: corepack yarn
+      - run: corepack yarn semantic-release
