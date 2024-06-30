@@ -1107,7 +1107,7 @@ __metadata:
     eslint-plugin-prefer-arrow: "npm:1.2.3"
     eslint-plugin-sonarjs: "npm:0.25.1"
     husky: "npm:9.0.11"
-    inquirer: "npm:9.3.1"
+    inquirer: "npm:9.3.2"
     pinst: "npm:3.0.0"
     prettier: "npm:3.3.2"
     semantic-release: "npm:23.1.1"
@@ -4251,9 +4251,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:9.3.1":
-  version: 9.3.1
-  resolution: "inquirer@npm:9.3.1"
+"inquirer@npm:9.3.2":
+  version: 9.3.2
+  resolution: "inquirer@npm:9.3.2"
   dependencies:
     "@inquirer/figures": "npm:^1.0.3"
     ansi-escapes: "npm:^4.3.2"
@@ -4261,13 +4261,13 @@ __metadata:
     external-editor: "npm:^3.1.0"
     mute-stream: "npm:1.0.0"
     ora: "npm:^5.4.1"
-    picocolors: "npm:^1.0.1"
     run-async: "npm:^3.0.0"
     rxjs: "npm:^7.8.1"
     string-width: "npm:^4.2.3"
     strip-ansi: "npm:^6.0.1"
     wrap-ansi: "npm:^6.2.0"
-  checksum: 10c0/e246fe74cdc1bca8fd70011c79f6533324a02d4a60d5f0e02976fb720ac19ee5e18c359dfc6ef52d6e02a6dc7c2872d7305fa7e985110f20ab922afbaf356acf
+    yoctocolors-cjs: "npm:^2.1.1"
+  checksum: 10c0/7e09361e102f98c2cfaebe6427250ad9ebfff018f48480f0f537ce039ac77fdc04093fb690c45ef3c246dc0b6afa6af437f1da10bd2899593403bcdbe7541580
   languageName: node
   linkType: hard
 
@@ -6317,7 +6317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.0, picocolors@npm:^1.0.1":
+"picocolors@npm:^1.0.0":
   version: 1.0.1
   resolution: "picocolors@npm:1.0.1"
   checksum: 10c0/c63cdad2bf812ef0d66c8db29583802355d4ca67b9285d846f390cc15c2f6ccb94e8cb7eb6a6e97fc5990a6d3ad4ae42d86c84d3146e667c739a4234ed50d400
@@ -8191,6 +8191,13 @@ __metadata:
   version: 1.0.0
   resolution: "yocto-queue@npm:1.0.0"
   checksum: 10c0/856117aa15cf5103d2a2fb173f0ab4acb12b4b4d0ed3ab249fdbbf612e55d1cadfd27a6110940e24746fb0a78cf640b522cc8bca76f30a3b00b66e90cf82abe0
+  languageName: node
+  linkType: hard
+
+"yoctocolors-cjs@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "yoctocolors-cjs@npm:2.1.1"
+  checksum: 10c0/e7e32c3d0a41e72251e274b34ebf9c371d26be1d351b41ba8feb407ce61e607e5178d1eaefeff7b5f1346a94a4ff4081cf276f2fd8388b432b7798d18800dd7f
   languageName: node
   linkType: hard
 
