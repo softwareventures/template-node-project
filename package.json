@@ -27,9 +27,9 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.3.0",
+    "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@commitlint/cz-commitlint": "19.2.0",
+    "@commitlint/cz-commitlint": "19.4.0",
     "@softwareventures/eslint-config": "7.6.0",
     "@softwareventures/precise-commits": "4.0.15",
     "@softwareventures/prettier-config": "4.0.0",
