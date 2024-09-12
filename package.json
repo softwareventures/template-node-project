@@ -46,7 +46,7 @@
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-jsdoc": "48.11.0",
     "eslint-plugin-prefer-arrow": "1.2.3",
-    "eslint-plugin-sonarjs": "0.25.1",
+    "eslint-plugin-sonarjs": "2.0.2",
     "husky": "9.1.6",
     "inquirer": "9.3.6",
     "pinst": "3.0.0",
