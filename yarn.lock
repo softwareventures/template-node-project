@@ -2212,13 +2212,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/core@npm:^0.1.0":
-  version: 0.1.2
-  resolution: "@pkgr/core@npm:0.1.2"
-  checksum: 10c0/fd4acc154c8f1b5c544b6dd152b7ce68f6cbb8b92e9abf2e5d756d6e95052d08d0d693a668dea67af1386d62635b50adfe463cce03c5620402b468498cc7592f
-  languageName: node
-  linkType: hard
-
 "@pnpm/config.env-replace@npm:^1.1.0":
   version: 1.1.0
   resolution: "@pnpm/config.env-replace@npm:1.1.0"
@@ -2562,7 +2555,7 @@ __metadata:
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.31.0"
-    eslint-plugin-jsdoc: "npm:50.6.9"
+    eslint-plugin-jsdoc: "npm:50.6.10"
     eslint-plugin-prefer-arrow: "npm:1.2.3"
     eslint-plugin-sonarjs: "npm:2.0.4"
     husky: "npm:9.1.7"
@@ -4665,13 +4658,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^1.5.3":
-  version: 1.6.0
-  resolution: "es-module-lexer@npm:1.6.0"
-  checksum: 10c0/667309454411c0b95c476025929881e71400d74a746ffa1ff4cb450bd87f8e33e8eef7854d68e401895039ac0bac64e7809acbebb6253e055dd49ea9e3ea9212
-  languageName: node
-  linkType: hard
-
 "es-object-atoms@npm:^1.0.0, es-object-atoms@npm:^1.1.1":
   version: 1.1.1
   resolution: "es-object-atoms@npm:1.1.1"
@@ -4839,9 +4825,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:50.6.9":
-  version: 50.6.9
-  resolution: "eslint-plugin-jsdoc@npm:50.6.9"
+"eslint-plugin-jsdoc@npm:50.6.10":
+  version: 50.6.10
+  resolution: "eslint-plugin-jsdoc@npm:50.6.10"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.49.0"
     are-docs-informative: "npm:^0.0.2"
@@ -4850,13 +4836,12 @@ __metadata:
     escape-string-regexp: "npm:^4.0.0"
     espree: "npm:^10.1.0"
     esquery: "npm:^1.6.0"
-    parse-imports: "npm:^2.1.1"
+    parse-imports-exports: "npm:^0.2.4"
     semver: "npm:^7.6.3"
     spdx-expression-parse: "npm:^4.0.0"
-    synckit: "npm:^0.9.1"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/cad199d262c2e889a3af4e402f6adc624e4273b3d5ca1940e7227b37d87af8090ca3444f7fff57f58dab9a827faed8722fc2f5d4daf31ec085eb00e9f5a338a7
+  checksum: 10c0/b85106e2ac32bb91eae578d65c704e97306a75eb9e53720b30ee9bd4eeb0bd116398e63fa884c7c350f673c8a8b7f0bf4560b4cbb5959456fb8d7747425953d5
   languageName: node
   linkType: hard
 
@@ -8377,13 +8362,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-imports@npm:^2.1.1":
-  version: 2.2.1
-  resolution: "parse-imports@npm:2.2.1"
+"parse-imports-exports@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "parse-imports-exports@npm:0.2.4"
   dependencies:
-    es-module-lexer: "npm:^1.5.3"
-    slashes: "npm:^3.0.12"
-  checksum: 10c0/bc541ce4ef2ff77d53247de39a956e0ee7a1a4b9b175c3e0f898222fe7994595f011491154db4ed408cbaf5049ede9d0b6624125565be208e973a54420cbe069
+    parse-statements: "npm:1.0.11"
+  checksum: 10c0/51b729037208abdf65c4a1f8e9ed06f4e7ccd907c17c668a64db54b37d95bb9e92081f8b16e4133e14102af3cb4e89870975b6ad661b4d654e9ec8f4fb5c77d6
   languageName: node
   linkType: hard
 
@@ -8431,6 +8415,13 @@ __metadata:
   version: 1.0.0
   resolution: "parse-passwd@npm:1.0.0"
   checksum: 10c0/1c05c05f95f184ab9ca604841d78e4fe3294d46b8e3641d305dcc28e930da0e14e602dbda9f3811cd48df5b0e2e27dbef7357bf0d7c40e41b18c11c3a8b8d17b
+  languageName: node
+  linkType: hard
+
+"parse-statements@npm:1.0.11":
+  version: 1.0.11
+  resolution: "parse-statements@npm:1.0.11"
+  checksum: 10c0/48960e085019068a5f5242e875fd9d21ec87df2e291acf5ad4e4887b40eab6929a8c8d59542acb85a6497e870c5c6a24f5ab7f980ef5f907c14cc5f7984a93f3
   languageName: node
   linkType: hard
 
@@ -9460,13 +9451,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slashes@npm:^3.0.12":
-  version: 3.0.12
-  resolution: "slashes@npm:3.0.12"
-  checksum: 10c0/71ca2a1fcd1ab6814b0fdb8cf9c33a3d54321deec2aa8d173510f0086880201446021a9b9e6a18561f7c472b69a2145977c6a8fb9c53a8ff7be31778f203d175
-  languageName: node
-  linkType: hard
-
 "slice-ansi@npm:^5.0.0":
   version: 5.0.0
   resolution: "slice-ansi@npm:5.0.0"
@@ -9890,16 +9874,6 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 10c0/6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39
-  languageName: node
-  linkType: hard
-
-"synckit@npm:^0.9.1":
-  version: 0.9.2
-  resolution: "synckit@npm:0.9.2"
-  dependencies:
-    "@pkgr/core": "npm:^0.1.0"
-    tslib: "npm:^2.6.2"
-  checksum: 10c0/e0c262817444e5b872708adb6f5ad37951ba33f6b2d1d4477d45db1f57573a784618ceed5e6614e0225db330632b1f6b95bb74d21e4d013e45ad4bde03d0cb59
   languageName: node
   linkType: hard
 
