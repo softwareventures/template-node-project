@@ -2482,9 +2482,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:4.0.19":
-  version: 4.0.19
-  resolution: "@softwareventures/precise-commits@npm:4.0.19"
+"@softwareventures/precise-commits@npm:4.0.21":
+  version: 4.0.21
+  resolution: "@softwareventures/precise-commits@npm:4.0.21"
   dependencies:
     "@softwareventures/array": "npm:7.0.0"
     "@softwareventures/nullable": "npm:3.2.0"
@@ -2493,14 +2493,14 @@ __metadata:
     ignore: "npm:5.3.2"
     mri: "npm:1.2.0"
     ora: "npm:5.4.1"
-    rxjs: "npm:7.8.1"
+    rxjs: "npm:7.8.2"
     tslib: "npm:2.8.1"
     unknown: "npm:0.2.6"
   peerDependencies:
     prettier: ^1.8.0 || ^2.0.0 || ^3.0.0
   bin:
     precise-commits: lib/cli.js
-  checksum: 10c0/4de02004104f200fddf6307538a8aed89ced06924ff24dbf424e054738a8c5ccd1e429025a832438d152a162a4b4519befe17b03ce19e7a7ef653c47aeb059a0
+  checksum: 10c0/aa2a17d671ab68b30c44ed6e317398a31e4b2950d137710198ef4d25eb3dedfe144d0e99dc1b2c1ecfc7773f36cc41db9d2e36717eae1c1eaefcd5a8e6752c13
   languageName: node
   linkType: hard
 
@@ -2535,7 +2535,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.8.1"
     "@commitlint/cz-commitlint": "npm:19.8.1"
     "@softwareventures/eslint-config": "npm:9.1.1"
-    "@softwareventures/precise-commits": "npm:4.0.19"
+    "@softwareventures/precise-commits": "npm:4.0.21"
     "@softwareventures/prettier-config": "npm:4.0.0"
     "@softwareventures/semantic-release-config": "npm:5.1.0"
     "@softwareventures/tsconfig": "npm:8.1.1"
@@ -9114,16 +9114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.8.1":
-  version: 7.8.1
-  resolution: "rxjs@npm:7.8.1"
-  dependencies:
-    tslib: "npm:^2.1.0"
-  checksum: 10c0/3c49c1ecd66170b175c9cacf5cef67f8914dcbc7cd0162855538d365c83fea631167cacb644b3ce533b2ea0e9a4d0b12175186985f89d75abe73dbd8f7f06f68
-  languageName: node
-  linkType: hard
-
-"rxjs@npm:^7.5.5, rxjs@npm:^7.8.1":
+"rxjs@npm:7.8.2, rxjs@npm:^7.5.5, rxjs@npm:^7.8.1":
   version: 7.8.2
   resolution: "rxjs@npm:7.8.2"
   dependencies:
