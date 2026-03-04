@@ -30,15 +30,10 @@ jobs:
     steps:
       - name: git checkout
         uses: actions/checkout@v6
-      - name: yarn cache
-        uses: actions/cache@v5
-        with:
-          path: ~/.yarn/berry/cache
-          key: ${{runner.os}}-node${{env.DEPLOY_NODE_VERSION}}-yarn-${{hashFiles('**/yarn.lock')}}
-          restore-keys: ${{runner.os}}-node${{env.DEPLOY_NODE_VERSION}}-yarn-
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: ${{env.DEPLOY_NODE_VERSION}}
+          cache: yarn
       - run: corepack yarn
       - run: corepack yarn semantic-release
